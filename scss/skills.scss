@@ -1,0 +1,22 @@
+.skills td {
+  line-height: 2.4;
+}
+
+.skills {
+  border-collapse: collapse;
+}
+
+.skills td:first-child {
+  font-weight: bold;
+  padding-right: 50px;
+}
+
+.skills tr {
+  border-bottom: 1px solid;
+  @include color(blue,
+  'border');
+}
+
+.skills tr:last-child {
+  border-bottom: 0px;
+}

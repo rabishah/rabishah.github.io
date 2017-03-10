@@ -3,15 +3,18 @@
 /* Typography Helpers Methods */
 /* Reset Default Typeset. */
 @import url("http://fonts.googleapis.com/css?family=#Abril+Fatface");
+/* line 50, /Users/rabi/rabishah.github.io/samagri/typography.scss */
 body {
   font-size: "16px";
   line-height: 1.4; }
 
+/* line 4, /Users/rabi/rabishah.github.io/scss/main.scss */
 a {
   text-decoration: none;
   color: #fff;
   text-decoration: underline; }
 
+/* line 14, /Users/rabi/rabishah.github.io/scss/main.scss */
 html, body {
   height: 100%;
   width: 100%;
@@ -22,6 +25,7 @@ html, body {
   flex-direction: column;
   align-items: stretch; }
 
+/* line 26, /Users/rabi/rabishah.github.io/scss/main.scss */
 header {
   background-color: #fff;
   display: flex;
@@ -30,12 +34,14 @@ header {
   align-items: flex-end;
   padding-left: 5em; }
 
+/* line 37, /Users/rabi/rabishah.github.io/scss/main.scss */
 section {
   flex-grow: 1;
   background-color: #000;
   padding-left: 5em;
   border-top: 2px solid #003EE8; }
 
+/* line 44, /Users/rabi/rabishah.github.io/scss/main.scss */
 .title {
   font-family: Abril Fatface;
   font-size: 5.625em;

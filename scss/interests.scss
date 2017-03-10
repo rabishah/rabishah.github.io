@@ -1,0 +1,19 @@
+.interests__list li:before {
+  content: "* "
+}
+
+.interests__list li {
+  margin-bottom: 20px;
+}
+.interests__list li:last-child {
+  margin-bottom: 0px;
+}
+
+
+#publications li {
+  margin-bottom: 30px;  
+}
+
+#publications li:last-child {
+  margin-bottom: 0px;
+}

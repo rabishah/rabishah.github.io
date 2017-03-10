@@ -1,0 +1,89 @@
+@import '../samagri/pallete.scss';
+@import '../samagri/typography.scss';
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
+
+@import 'intro.scss';
+@import 'skills.scss';
+@import 'works.scss';
+@import 'projects.scss';
+@import 'interests.scss';
+@import 'header.scss';
+
+body {
+  padding: 0;
+  width: 70%; // NOTE: enquire about %
+  margin: auto;
+  margin-top: 120px;
+  @include font('robotomono','regular', em(18), 1.4);
+}
+
+h1 {
+  font-size: 40px;
+  margin: 0;
+}
+
+h1,h2 { @include color(blue); }
+h1,h2,h3 { font-weight: bold; }
+h2,h3 { font-size: 25px; }
+h3,h4,h5,h6 { margin: 0; }
+
+h2 { 
+  margin: 0; 
+  padding: 0;
+}
+
+a {
+  text-decoration: underline;
+  color: inherit;
+  cursor: pointer;
+}
+a:hover { @include color(blue); }
+
+p        { margin: 0; }
+strong   { font-weight: bold; }
+section  { margin-bottom: 70px; }
+
+.margin-15 { margin-bottom: 15px; }
+
+ul, li {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.separator {
+  &__first {
+    margin-top: 10px;
+    width: 100%;
+    border-bottom: 1px solid;
+    @include color(blue,
+    'border');
+  }
+  &__second {
+    margin-bottom: 28px;
+    width: 50%;
+    border-bottom: 1px solid;
+    @include color(blue,
+    'border');
+  }
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+@media print {
+  body {
+    width: 100%;
+    font-size: 14px;
+    margin-top: 0;    
+  }
+  h2,h3 {
+    font-size: 18px;
+  }
+  section {
+    margin-bottom: 45px;
+  }
+}

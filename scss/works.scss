@@ -1,0 +1,23 @@
+.works {
+  margin-bottom: 50px;
+  
+  &__meta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  p { padding-bottom: 20px; }
+  
+  &__description p:last-child {
+    padding-bottom: 0px;
+  }
+}
+
+.works:last-child {
+  margin-bottom: 0px;
+}
+
+#education {
+  margin-bottom: 50px;
+}

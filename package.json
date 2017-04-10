@@ -1,0 +1,23 @@
+{
+  "name": "rabishah.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass --watch --recursive ./scss --include-path scss -o styles"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rabishah/rabishah.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rabishah/rabishah.github.io/issues"
+  },
+  "homepage": "https://github.com/rabishah/rabishah.github.io#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.2"
+  }
+}

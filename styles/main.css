@@ -1,3 +1,4 @@
+/* line 1, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 html, body {
   height: 100%;
   width: 100%;
@@ -5,42 +6,99 @@ html, body {
   padding: 0;
   margin: 0; }
 
+/* line 9, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  overflow-y: scroll; }
+  font-family: 'Roboto Mono', monospace;
+  overflow-y: scroll;
+  color: #333; }
 
+/* line 16, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+h1 {
+  font-size: 28px;
+  margin-bottom: 30px; }
+
+/* line 21, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 a {
   text-decoration: none; }
 
+/* line 25, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+blockquote {
+  font-family: georgia;
+  font-size: 20px;
+  line-height: 1.5; }
+
+/* line 31, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 p {
   font-family: inherit;
   font-size: 18px;
-  line-height: 1.4; }
+  line-height: 1.6;
+  margin-bottom: 30px; }
 
+/* line 38, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+content {
+  margin-top: 60px;
+  display: block; }
+
+/* line 43, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 article {
-  max-width: 864px;
-  padding: 20px;
-  margin: auto; }
+  max-width: 650px;
+  position: relative;
+  margin-left: 330px;
+  padding-bottom: 60px;
+  font-size: 16px;
+  line-height: 26px; }
 
+/* line 52, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+.Splitter {
+  text-align: center;
+  margin: 0 0 30px 0; }
+
+/* line 58, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 nav {
   flex-direction: column;
   display: flex;
-  align-items: flex-end;
-  padding: 20px;
-  margin-right: 60px;
-  margin-top: 10px; }
+  margin-top: 30px; }
+  /* line 63, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
   nav a {
     color: #000;
+    opacity: 0.6;
     cursor: pointer;
-    padding: 10px;
+    padding-bottom: 30px;
     text-transform: capitalize;
-    text-align: right; }
+    text-align: right;
+    font-size: 16px;
+    font-family: inherit; }
+  /* line 74, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
   nav a:hover {
     text-decoration-line: underline;
-    color: #c0392b; }
+    color: #c0392b;
+    opacity: 1; }
+  /* line 80, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+  nav .selected {
+    color: #c0392b;
+    font-weight: bold;
+    opacity: 1; }
 
+/* line 87, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+sidebar {
+  position: fixed;
+  width: auto;
+  padding: 60px 0 0 60px; }
+
+/* line 94, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+.Image__Profile {
+  width: 150px;
+  height: 150px; }
+
+/* line 98, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+.Image__Chandra {
+  width: 38px; }
+
+/* line 103, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .Greetings {
   margin-bottom: 30px;
   font-family: Georgia;
   font-style: italic;
   font-size: 22px; }
+
+/*# sourceMappingURL=main.css.map */

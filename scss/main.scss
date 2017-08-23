@@ -18,6 +18,10 @@ h1 {
   margin-bottom: 30px;
 }
 
+h2 {
+  font-size: 1.2em;
+}
+
 a {
   text-decoration: none;
 }
@@ -90,6 +94,13 @@ sidebar {
   padding: 60px 0 0 60px;
 }
 
+.mbtm-30 {
+  margin-bottom: 30px;
+}
+.mbtm-none {
+  margin-bottom: 0;
+}
+
 .Image {
   &__Profile {
     width: 150px;
@@ -97,9 +108,23 @@ sidebar {
   }
   &__Chandra {
     width: 38px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+  &__Screenshot {
+    height: 200px;
+    width: 308px;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px 1px rgba(0,0,0,0.1);
   }
 }
 
+.Project {
+  &__Description {
+    font-size: 14px;
+    margin-right: 60px;
+  }
+}
 .Greetings {
   margin-bottom: 30px;
   font-family: Georgia;

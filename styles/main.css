@@ -119,12 +119,20 @@ strong {
   border-radius: 3px;
   box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1); }
 
-/* line 125, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 122, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+.Image__WithCaption {
+  text-align: center;
+  margin: 30px 0; }
+  /* line 125, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+  .Image__WithCaption img {
+    width: 100%; }
+
+/* line 130, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .Project__Description {
   font-size: 14px;
   margin-right: 60px; }
 
-/* line 130, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 135, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .Greetings {
   margin-bottom: 30px;
   font-family: Georgia;

@@ -90,37 +90,41 @@ sidebar {
   padding: 60px 0 0 60px; }
 
 /* line 97, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+strong {
+  font-weight: bold; }
+
+/* line 99, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .mbtm-30 {
   margin-bottom: 30px; }
 
-/* line 100, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 102, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .mbtm-none {
   margin-bottom: 0; }
 
-/* line 105, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 107, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .Image__Profile {
   width: 150px;
   height: 150px; }
 
-/* line 109, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 111, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .Image__Chandra {
   width: 38px;
   margin-top: 60px;
   margin-bottom: 30px; }
 
-/* line 114, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 116, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .Image__Screenshot {
   height: 200px;
   width: 308px;
   border-radius: 3px;
   box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.1); }
 
-/* line 123, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 125, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .Project__Description {
   font-size: 14px;
   margin-right: 60px; }
 
-/* line 128, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 130, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .Greetings {
   margin-bottom: 30px;
   font-family: Georgia;

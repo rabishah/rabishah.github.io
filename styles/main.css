@@ -131,34 +131,36 @@ strong {
   .Image__WithCaption img {
     width: 100%; }
 
-/* line 139, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
-.Project__Description {
-  font-size: 14px;
-  margin-right: 60px; }
+/* line 138, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+.Project {
+  margin: 60px 0; }
+  /* line 141, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+  .Project__Description {
+    font-size: 14px;
+    margin-right: 60px; }
+  /* line 145, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+  .Project__Summary {
+    z-index: 9999;
+    position: relative;
+    padding: 50px 10px 0 10px;
+    background: rgba(255, 255, 255, 0.63);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.79) 11%, white 26%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.63)), color-stop(11%, rgba(255, 255, 255, 0.79)), color-stop(26%, white));
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.79) 11%, white 26%);
+    background: -o-linear-gradient(top, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.79) 11%, white 26%);
+    background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.79) 11%, white 26%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.79) 11%, white 26%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.79) 11%, white 26%);
+    margin: -130px auto 0 auto; }
 
-/* line 143, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
-.Project__Summary {
-  z-index: 9999;
-  position: relative;
-  padding: 50px 10px 0 10px;
-  background: rgba(255, 255, 255, 0.63);
-  background: -moz-linear-gradient(top, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.79) 11%, white 26%);
-  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255, 255, 255, 0.63)), color-stop(11%, rgba(255, 255, 255, 0.79)), color-stop(26%, white));
-  background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.79) 11%, white 26%);
-  background: -o-linear-gradient(top, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.79) 11%, white 26%);
-  background: -ms-linear-gradient(top, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.79) 11%, white 26%);
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.79) 11%, white 26%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.63) 0%, rgba(255, 255, 255, 0.79) 11%, white 26%);
-  margin: -130px auto 0 auto; }
-
-/* line 160, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 162, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .Writings {
   margin: 0;
   padding: 0;
   list-style: none; }
 
-/* line 166, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 168, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .Greetings {
   margin-bottom: 30px;
   font-family: Georgia;

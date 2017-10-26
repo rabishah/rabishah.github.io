@@ -2,14 +2,6 @@
 @import '../samagri/typography.scss';
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 
-@import 'intro.scss';
-@import 'skills.scss';
-@import 'works.scss';
-@import 'projects.scss';
-@import 'interests.scss';
-@import 'header.scss';
-
-
 body {
   padding: 0;
   width: 70%; // NOTE: enquire about %
@@ -87,5 +79,187 @@ ul, li {
   }
   section {
     margin-bottom: 45px;
+  }
+}
+
+
+// SKILLS
+.skills td {
+  line-height: 2.4;
+}
+
+.skills {
+  border-collapse: collapse;
+}
+
+.skills td:first-child {
+  font-weight: bold;
+  padding-right: 50px;
+}
+
+.skills tr {
+  border-bottom: 1px solid;
+  @include color(blue,
+  'border');
+}
+
+.skills tr:last-child {
+  border-bottom: 0px;
+}
+
+
+
+
+// Works
+.works {
+  margin-bottom: 30px;
+
+  &__desc {
+    margin-left: 20px;
+  }
+
+  &__desc li {
+    margin-bottom: 5px;
+    list-style: disc;
+  }
+  &__desc li:last-child {
+    margin-bottom: 0px;
+  }
+}
+
+.works a {
+  font-size: 16px;
+}
+#education {
+  margin-bottom: 50px;
+}
+
+
+
+// Projects
+.project {
+  margin-bottom: 30px;
+  &__header {
+    display: flex;
+
+    &--block {
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  &__icon {
+    align-self: center;
+    padding-right: 20px
+  }
+}
+
+.project p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.project:last-child {
+  margin-bottom: 0px;
+}
+
+.project a {
+  font-size: 16px;
+}
+
+.shree-logo {
+  align-self: center;
+  font-size: 32px;
+  font-weight: bold;
+
+  padding: 10px;
+  margin-right: 15px;
+}
+
+
+// Intro
+
+.intro {
+  &__links {
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px solid;
+    @include color(blue, 'border');
+    font-size: 16px;
+  }
+
+  .intro__links li:first-child {
+    text-align: left;
+  }
+
+  &__links li:first-child, &__links li:nth-child(2) {
+    border-bottom: 1px solid;
+  };
+
+  &__links li {
+    flex: 1;
+    text-align: center;
+  }
+
+  &__links a {
+    text-decoration: none;
+  }
+
+  &__links a:hover {
+    @include color(blue);
+  }
+}
+
+
+// Interests
+.interests__list li:before {
+  content: "* "
+}
+
+#education a {
+  font-size: 16px;
+}
+
+#publications a {
+  font-size: 16px;
+}
+
+#publications li {
+  margin-bottom: 10px;
+}
+
+#publications li:last-child {
+  margin-bottom: 0px;
+}
+
+
+
+// Top bar
+#top-bar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 50px;
+  background-color: #fafafa;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.save {
+  display: flex;
+  font-size: 16px;
+  text-transform: lowercase;
+  opacity: 0.7;
+}
+
+.save li {
+  padding-right: 30px;
+}
+
+@media print {
+  #top-bar {
+    display: none;
   }
 }

@@ -10,110 +10,184 @@ body {
   font-size: "16px";
   line-height: 1.4; }
 
-/* Color Pallete */
-/* Pallete helper methods.*/
-/* line 4, /Users/rabi/27ae60/rabishah.github.io/scss/intro.scss */
-.intro__links {
-  display: flex;
-  justify-content: start;
-  border-bottom: 1px solid;
-  border-color: #003EE8;
-  font-size: 16px; }
+/* line 5, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+body {
+  padding: 0;
+  width: 70%;
+  margin: auto;
+  margin-top: 120px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.125em;
+  line-height: 1.4; }
 
-/* line 12, /Users/rabi/27ae60/rabishah.github.io/scss/intro.scss */
-.intro .intro__links li:first-child {
-  text-align: left; }
+/* line 13, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+h1 {
+  font-size: 40px;
+  margin: 0; }
 
-/* line 16, /Users/rabi/27ae60/rabishah.github.io/scss/intro.scss */
-.intro__links li:first-child, .intro__links li:nth-child(2) {
-  border-bottom: 1px solid; }
-
-/* line 20, /Users/rabi/27ae60/rabishah.github.io/scss/intro.scss */
-.intro__links li {
-  flex: 1;
-  text-align: center; }
-
-/* line 25, /Users/rabi/27ae60/rabishah.github.io/scss/intro.scss */
-.intro__links a {
-  text-decoration: none; }
-
-/* line 29, /Users/rabi/27ae60/rabishah.github.io/scss/intro.scss */
-.intro__links a:hover {
+/* line 18, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+h1, h2 {
   color: #003EE8; }
 
-/* line 1, /Users/rabi/27ae60/rabishah.github.io/scss/skills.scss */
+/* line 19, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+h1, h2, h3 {
+  font-weight: bold; }
+
+/* line 20, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+h2, h3 {
+  font-size: 25px; }
+
+/* line 21, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+h3, h4, h5, h6 {
+  margin: 0; }
+
+/* line 23, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+h2 {
+  margin: 0;
+  padding: 0; }
+
+/* line 28, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+a {
+  text-decoration: underline;
+  color: inherit;
+  cursor: pointer; }
+
+/* line 33, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+a:hover {
+  color: #003EE8; }
+
+/* line 35, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+p {
+  margin: 0; }
+
+/* line 36, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+strong {
+  font-weight: bold; }
+
+/* line 37, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+section {
+  margin-bottom: 30px; }
+
+/* line 39, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+.margin-15 {
+  margin-bottom: 15px; }
+
+/* line 40, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+.mbtm-10 {
+  margin-bottom: 10px; }
+
+/* line 42, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+ul, li {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+/* line 50, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+.separator__first {
+  margin-top: 10px;
+  width: 100%;
+  border-bottom: 1px solid;
+  border-color: #003EE8; }
+
+/* line 57, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+.separator__second {
+  margin-bottom: 28px;
+  width: 50%;
+  border-bottom: 1px solid;
+  border-color: #003EE8; }
+
+/* line 66, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+.icon {
+  width: 50px;
+  height: 50px; }
+
+@media print {
+  /* line 72, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+  body {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 0; }
+  /* line 77, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+  h2, h3 {
+    font-size: 22px; }
+  /* line 80, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+  section {
+    margin-bottom: 45px; } }
+
+/* line 87, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 .skills td {
   line-height: 2.4; }
 
-/* line 5, /Users/rabi/27ae60/rabishah.github.io/scss/skills.scss */
+/* line 91, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 .skills {
   border-collapse: collapse; }
 
-/* line 9, /Users/rabi/27ae60/rabishah.github.io/scss/skills.scss */
+/* line 95, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 .skills td:first-child {
   font-weight: bold;
   padding-right: 50px; }
 
-/* line 14, /Users/rabi/27ae60/rabishah.github.io/scss/skills.scss */
+/* line 100, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 .skills tr {
   border-bottom: 1px solid;
   border-color: #003EE8; }
 
-/* line 20, /Users/rabi/27ae60/rabishah.github.io/scss/skills.scss */
+/* line 106, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 .skills tr:last-child {
   border-bottom: 0px; }
 
-/* line 1, /Users/rabi/27ae60/rabishah.github.io/scss/works.scss */
+/* line 114, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 .works {
   margin-bottom: 30px; }
-  /* line 4, /Users/rabi/27ae60/rabishah.github.io/scss/works.scss */
+  /* line 117, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
   .works__desc {
     margin-left: 20px; }
-  /* line 8, /Users/rabi/27ae60/rabishah.github.io/scss/works.scss */
+  /* line 121, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
   .works__desc li {
     margin-bottom: 5px;
     list-style: disc; }
-  /* line 12, /Users/rabi/27ae60/rabishah.github.io/scss/works.scss */
+  /* line 125, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
   .works__desc li:last-child {
     margin-bottom: 0px; }
 
-/* line 17, /Users/rabi/27ae60/rabishah.github.io/scss/works.scss */
+/* line 130, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 .works a {
   font-size: 16px; }
 
-/* line 20, /Users/rabi/27ae60/rabishah.github.io/scss/works.scss */
+/* line 133, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 #education {
   margin-bottom: 50px; }
 
-/* line 1, /Users/rabi/27ae60/rabishah.github.io/scss/projects.scss */
+/* line 140, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 .project {
   margin-bottom: 30px; }
-  /* line 3, /Users/rabi/27ae60/rabishah.github.io/scss/projects.scss */
+  /* line 142, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
   .project__header {
     display: flex; }
-    /* line 6, /Users/rabi/27ae60/rabishah.github.io/scss/projects.scss */
+    /* line 145, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
     .project__header--block {
       display: block;
       margin-bottom: 20px; }
-  /* line 11, /Users/rabi/27ae60/rabishah.github.io/scss/projects.scss */
+  /* line 150, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
   .project__icon {
     align-self: center;
     padding-right: 20px; }
 
-/* line 17, /Users/rabi/27ae60/rabishah.github.io/scss/projects.scss */
+/* line 156, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 .project p {
   font-size: 18px;
   line-height: 1.4; }
 
-/* line 22, /Users/rabi/27ae60/rabishah.github.io/scss/projects.scss */
+/* line 161, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 .project:last-child {
   margin-bottom: 0px; }
 
-/* line 26, /Users/rabi/27ae60/rabishah.github.io/scss/projects.scss */
+/* line 165, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 .project a {
   font-size: 16px; }
 
-/* line 30, /Users/rabi/27ae60/rabishah.github.io/scss/projects.scss */
+/* line 169, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 .shree-logo {
   align-self: center;
   font-size: 32px;
@@ -121,27 +195,56 @@ body {
   padding: 10px;
   margin-right: 15px; }
 
-/* line 1, /Users/rabi/27ae60/rabishah.github.io/scss/interests.scss */
+/* line 182, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+.intro__links {
+  display: flex;
+  justify-content: start;
+  border-bottom: 1px solid;
+  border-color: #003EE8;
+  font-size: 16px; }
+
+/* line 190, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+.intro .intro__links li:first-child {
+  text-align: left; }
+
+/* line 194, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+.intro__links li:first-child, .intro__links li:nth-child(2) {
+  border-bottom: 1px solid; }
+
+/* line 198, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+.intro__links li {
+  flex: 1;
+  text-align: center; }
+
+/* line 203, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+.intro__links a {
+  text-decoration: none; }
+
+/* line 207, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
+.intro__links a:hover {
+  color: #003EE8; }
+
+/* line 214, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 .interests__list li:before {
   content: "* "; }
 
-/* line 5, /Users/rabi/27ae60/rabishah.github.io/scss/interests.scss */
+/* line 218, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 #education a {
   font-size: 16px; }
 
-/* line 9, /Users/rabi/27ae60/rabishah.github.io/scss/interests.scss */
+/* line 222, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 #publications a {
   font-size: 16px; }
 
-/* line 13, /Users/rabi/27ae60/rabishah.github.io/scss/interests.scss */
+/* line 226, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 #publications li {
   margin-bottom: 10px; }
 
-/* line 17, /Users/rabi/27ae60/rabishah.github.io/scss/interests.scss */
+/* line 230, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 #publications li:last-child {
   margin-bottom: 0px; }
 
-/* line 1, /Users/rabi/27ae60/rabishah.github.io/scss/header.scss */
+/* line 237, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 #top-bar {
   position: absolute;
   top: 0px;
@@ -153,125 +256,20 @@ body {
   align-items: center;
   justify-content: flex-end; }
 
-/* line 14, /Users/rabi/27ae60/rabishah.github.io/scss/header.scss */
+/* line 250, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 .save {
   display: flex;
   font-size: 16px;
   text-transform: lowercase;
   opacity: 0.7; }
 
-/* line 21, /Users/rabi/27ae60/rabishah.github.io/scss/header.scss */
+/* line 257, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
 .save li {
   padding-right: 30px; }
 
 @media print {
-  /* line 26, /Users/rabi/27ae60/rabishah.github.io/scss/header.scss */
+  /* line 262, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
   #top-bar {
     display: none; } }
-
-/* line 13, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-body {
-  padding: 0;
-  width: 70%;
-  margin: auto;
-  margin-top: 120px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 1.125em;
-  line-height: 1.4; }
-
-/* line 21, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-h1 {
-  font-size: 40px;
-  margin: 0; }
-
-/* line 26, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-h1, h2 {
-  color: #003EE8; }
-
-/* line 27, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-h1, h2, h3 {
-  font-weight: bold; }
-
-/* line 28, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-h2, h3 {
-  font-size: 25px; }
-
-/* line 29, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-h3, h4, h5, h6 {
-  margin: 0; }
-
-/* line 31, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-h2 {
-  margin: 0;
-  padding: 0; }
-
-/* line 36, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-a {
-  text-decoration: underline;
-  color: inherit;
-  cursor: pointer; }
-
-/* line 41, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-a:hover {
-  color: #003EE8; }
-
-/* line 43, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-p {
-  margin: 0; }
-
-/* line 44, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-strong {
-  font-weight: bold; }
-
-/* line 45, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-section {
-  margin-bottom: 30px; }
-
-/* line 47, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-.margin-15 {
-  margin-bottom: 15px; }
-
-/* line 48, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-.mbtm-10 {
-  margin-bottom: 10px; }
-
-/* line 50, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-ul, li {
-  text-decoration: none;
-  list-style: none;
-  margin: 0;
-  padding: 0; }
-
-/* line 58, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-.separator__first {
-  margin-top: 10px;
-  width: 100%;
-  border-bottom: 1px solid;
-  border-color: #003EE8; }
-
-/* line 65, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-.separator__second {
-  margin-bottom: 28px;
-  width: 50%;
-  border-bottom: 1px solid;
-  border-color: #003EE8; }
-
-/* line 74, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-.icon {
-  width: 50px;
-  height: 50px; }
-
-@media print {
-  /* line 80, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-  body {
-    width: 100%;
-    font-size: 20px;
-    margin-top: 0; }
-  /* line 85, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-  h2, h3 {
-    font-size: 22px; }
-  /* line 88, /Users/rabi/27ae60/rabishah.github.io/scss/resume.scss */
-  section {
-    margin-bottom: 45px; } }
 
 /*# sourceMappingURL=resume.css.map */

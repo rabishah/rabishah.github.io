@@ -15,32 +15,24 @@
     <div id="top-bar">
        <ul class="save">
          <li><a onclick="window.print()">Print</a></li>
-         <li><a target="_blank" href="resumes.pdf">Download</a></li>
+         <li><a target="_blank" href="rabi-shah-resume.pdf">Download</a></li>
        </ul>
     </div>
 
     <section class="intro">
-      <div class="intro__header">
-        <div>
-          <h1>Rabi C Shah</h1>
-          <a href="mailto:green.rabi@hotmail.com?Subject=Hola, Amigos!"><strong>green.rabi@hotmail.com</strong></a>
-        </div>
-
-        <ul class="intro__links">
-          <li><a href="http://rabi.info" target="_blank">http://rabi.info</a></li>
-          <li class="intro__github"><a href="https://github.com/rabishah" target="_blank">github: @rabishah</a></li>
-        </ul>
-      </div>
-
-      <p class="description">I am a web engineer with 4+ years of experience based out of Bangalore. I have worked with early/mid startups in getting ideas to a scalable production environment. I prefer building a high-quality Progressive Web App with a focus on performance.
-      <br>
-      <br>
-      Currently, I am working on my personal project named <a href="http://chapi.27ae60.com" target="_blank">Chapi</a>. It is a <a href="https://en.wikipedia.org/wiki/Personal_knowledge_management" target="_blank">personal knowledge management</a>(PKM) tool.</p>
+      <h1>Rabi C Shah</h1>
+      <ul class="intro__links">
+        <li><a href="mailto:green.rabi@hotmail.com?Subject=Hola, Amigos!"><strong>green.rabi@hotmail.com</strong></a></li>
+        <li>+91-8130076056</li>
+        <li><a href="http://rabi.info" target="_blank">http://rabi.info</a></li>
+        <li><a href="https://github.com/rabishah" target="_blank">github: @rabishah</a></li>
+      </ul>
+      <br/>
+      <p>I am a full stack web developer with over 4 years of experience in building, deploying and maintaining web applications. I have worked with startups in getting ideas to a scalable production environment. I am currently based out of Bangalore and working with <a href="http://27ae60.com" target="_blank">Team 27AE60</a> on a personal knowledge management tool (<a href="http://chapiapp.com" target="_blank">chapiapp.com</a>).</p>
     </section>
 
     <section id="skillset">
-      <h2 class="margin-15">Skills & Expertise</h2>
-
+      <h2>Skills & Expertise</h2>
       <table class="skills">
         <tr>
           <td>Paradigm and Methodologies</td>
@@ -70,122 +62,93 @@
     </section>
 
     <section id="work-experiences">
-      <h2 class="margin-15">Work Experiences</h2>
+      <h2 class="mbtm-10">Work Experiences</h2>
       <div class="works">
-        <div class="works__meta">
-          <div>
-            <h3 class="works__designation">Baxi - The Bike Taxi</h3>
-            <h5><i>Oct 2015 - Nov 2016</i></h5>
-          </div>
+        <div><strong>Senior Software Developer, </strong>BAXI: The Bike Taxi; Gurgaon, India<i> - Oct 2015 - Nov 2016</i></div>
+        <div class="mbtm-10"><a href="http://baxi.taxi" target="_blank">http://baxi.taxi</a></div>
+        <p class="mbtm-10">As Baxi’s core member in articulating <strong>India’s first on-demand motorcycle taxi platform</strong>, I maintained a secure infrastructure, developed web applications for admin and operation team and established an efficient development / production workflow.</p>
 
-          <div>
-            <a href="http://baxi.taxi" target="_blank">http://baxi.taxi</a>
-          </div>
-        </div>
-
-        <div class="works__description">
-          <p>As Baxi’s Senior Software Developer, I was responsible for developing and maintaining web applications for the end users. In addition to building web applications, I had also worked in maintaining the infrastructure of Baxi.</p>
-          <p>One notable work during my tenure was to streamline the process of on boarding drivers and their documents. We chose Parse server modeled on the concept of finite-state-machine and Vue.js for building web components along with Redux as application architecture.</p>
-          <p>Some other projects I’ve worked during my time at Baxi includes: automated blue-green deployments with AWS Code deploy, versioning APIs using AWS API Gateway, near real-time logging of HTTP endpoints using AWS Lambda visualized in logz.io, Hubot for development deployment over Slack.</p>
-        </div>
+        <ul class="works__desc">
+          <li>Configured Baxi’s HTTP endpoints on AWS API Gateway which later helped us in a smooth transition from API <strong>version 1</strong> to <strong>version 2</strong>. Later on, I built a <strong>near real-time logging</strong> of the API Gateway HTTP endpoints using AWS Lambda (function-as-a-service), visualized in logz.io.</li>
+          <li>Prototyped an onboarding process for drivers and supervisors built on <strong>Parse server</strong> which later became an integral part of the <strong>onboarding workflow</strong>. This decision to use Parse server allowed us to build HTTP end points quickly, supported multiple document formats for storing and hooks on tables were used to streamline the onboarding workflow.</li>
+          <li>Introduced a bot built using Hubot to deploy the development environment from <strong>Slack channels</strong>. Production workflow included <strong>blue-green deployment</strong> with AWS Codedeploy and <strong>immutable infrastructure</strong> maintained using Terraform.</li>
+        </ul>
       </div>
 
       <div class="works">
-        <div class="works__meta">
-          <div>
-            <h3 class="works__designation">bookmyshow.com</h3>
-            <h5><i>Jul 2014 - Sep 2015</i></h5>
-          </div>
+        <div><strong>Engineering Lead (Front-End), </strong>Bookmyshow; Mumbai, India<i> - Aug 2014 - Sep 2015</i></div>
+        <div class="mbtm-10"><a href="http://www.bookmyshow.com" target="_blank">http://bookmyshow.com</a></div>
 
-          <div>
-            <a href="http://www.bookmyshow.com" target="_blank">http://bookmyshow.com</a>
-          </div>
-        </div>
+        <p class="mbtm-10">At Bookmyshow, I contributed in building an event management platform for Meetings, Incentives, Conferences and Events (MICE), collaborated with designers and backend developers and helped in expanding the team size.</p>
 
-        <div class="works__description">
-          <p>At bookmyshow.com, I was lead user interface developer for React builds, created modular components with Webpack, JSX and CSS Modules.</p>
-          <p>We built an event management platform for Meetings, Incentives, Conferences and Events (MICE) which included ticketing, payments and templates with just-in-time compilation. I called my bundler ‘chetta’ which provided a black box environment for building web components in isolation from the app.</p>
-        </div>
+        <ul class="works__desc">
+          <li>Collaborated with designers on UX / UI to build React Components for an <strong>event management platform</strong>. To ease the collaboration, I built a prototype that provided a black box environment to <strong>view and update web components in isolation from the app</strong>.</li>
+          <li>Collaborated with backend developers on designing Restful APIs. I had prototyped a mock server with Nedb as a local datastore to synchronize the communication between backend and frontend applications. We maintained a well formated documentation of the endpoints based on JSDoc.</li>
+          <li>Interviewed prospective employees and mentored a junior software developer on the team. We were able to expand our development team from three members to six members (two senior developers and a junior developer) within a year.</li>
+        </ul>
       </div>
 
       <div class="works">
-
-        <div class="works__meta">
-          <div>
-            <h3 class="works__designation">Minsh</h3>
-            <h5><i>Jan 2013 - Aug 2014</i></h5>
-          </div>
-
-          <div>
-            <a href="http://minsh.com" target="_blank">http://minsh.com</a>
-          </div>
-        </div>
-
-        <div class="works__description">
-          <p>As a Web Hacker in Minsh, I worked with a jolly team in bringing a hybrid mobile web application for Community Engagement from idea to production. The app is used by @BangaloreJS community and many more clients.</p>
-          <p>I gained valuable experience in project ownership, server side and client side development, code testing (unit & end-to-end). I also contributed in building a bower component  angular-errors-directive. It is a user error feedback directive for Angular.js</p>
-        </div>
+        <div><strong>Web Hacker, </strong>Minsh; Bangalore, India<i> - Jan 2013 - Jul 2014</i></div>
+        <div class="mbtm-10"><a href="http://minsh.com" target="_blank">http://minsh.com</a></div>
+        <ul class="works__desc">
+         <li>As a Web Hacker in Minsh, I contributed in developing <strong>a mobile web application for community engagement</strong> built with Angular JS (1.0).</li>
+         <li>Gained valuable experience in project ownership, server side and client side development, code testing (unit and end-to-end).</li>
+          <li>Contributed in building a <strong>bower component</strong> called <a href="https://github.com/minsh/angular-errors-directive" target="_blank">AngularJS Errors Directive</a>. It is a module for error message feedbacks.</li>
+          <li>The project started out with ideation, later defining business model and finally reaching out to clients. This app is used in <strong>BangaloreJS community</strong> and has many more clients including Microsoft Accelerator, Alliance Francaise and Techstarts.</li>
+        </ul>
       </div>
     </section>
+
     <section id="personal-projects">
-      <h2 class="margin-15">Personal Projects</h2>
-
+      <h2 class="mbtm-10">Personal Projects</h2>
       <div class="project">
-        <div class="project__header">
-          <img class="icon project__icon" src="images/chapi-logo.png" alt="Chapi logo">
-
-          <div>
-            <h3>Chapi - save everything from web</h3>
-            <a href="http://chapiapp.com" target="_blank">http://chapiapp.com</a>
-          </div>
+        <div><strong>Cockpit, </strong><a href="http://cockpit.27ae60.com" target="_blank">http://cockpit.27ae60.com</a>
         </div>
+        <p>Cockpit is a HTML5 app for creating panes and windows in Tmux. The most interesting feature of the project is replicating Tmux pane creation in a web layout. <a href="https://news.ycombinator.com/item?id=15432986" target="_blank">Featured #1 on Show HN (Hacker News).</a></p>
       </div>
-      <div class="project">
-        <div class="project__header">
-          <img class="icon project__icon" src="images/cockpit.png" alt="Cockpit logo">
 
-          <div>
-            <h3>Cockpit - a HTML5 app to create panes and windows in Tmux</h3>
-            <a href="http://cockpit.27ae60.com" target="_blank">http://cockpit.27ae60.com</a>
-          </div>
-        </div>
+      <div class="project">
+        <div><strong>Todo Tab, </strong><a href="https://chrome.google.com/webstore/detail/todo-tab/ljkjodkdilmmlaiphehiceeblnnndhnd?hl=en" target="_blank">Chrome Extension</a></div>
+        <p>A simple to-do list for your browser. This extension hijacks your browser new tab and replaces the default page with a todo list. And when ever I open a new tab the todo list will appear and it always reminds me about the tasks to do. <a href="https://www.producthunt.com/posts/todo-tab" target="_blank">Featured on Product Hunt.</a></p>
       </div>
-      <div class="project">
-        <div class="project__header">
-          <div class="shree-logo">श्री</div>
 
-          <div>
-            <h3>Shrii - a transliterator from English to Nepali</h3>
-            <a href="https://rabishah.github.io/nepali-unicode/" target="_blank">https://rabishah.github.io/nepali-unicode</a>
-          </div>
-        </div>
+      <div class="project">
+        <div><strong>Chapi - save everything from web, </strong><a href="http://chapiapp.com" target="_blank">http://chapiapp.com</a></div>
+        <p>Chapi - is a platform to help you get organized with your knowledge base.  It helps you save contents like texts, images and pages to a personalized space. Chapi comes with an efficient search and a timeline of your saved contents for quick recollections. It’s in alpha stage of development. </p>
+      </div>
+
+      <div class="project">
+        <div><strong>Shrii - English to Nepali, </strong><a href="https://rabishah.github.io/nepali-unicode/" target="_blank">https://rabishah.github.io/nepali-unicode</a></div>
+        <p>Shri (श्री) is a transliterator that maps each or combinations of English alphabets to respective Nepali alphabets allowing users to easily write in Devnagari script.</p>
       </div>
     </section>
+
     <section id="publications">
-      <h2 class="margin-15">Publications</h2>
+      <h2 class="mbtm-10">Publications</h2>
       <ul>
         <li>
-          <h3>Semantic Web in Medical Information System</h3>
-          <h5>IJAET Journals 2012</h5>
+          <div><strong>Semantic Web in Medical Information System</strong></div>
+          <div>IJAET Journals 2012</div>
+          <div><a href="http://www.e-ijaet.org/media/53I11-IJAET1111227-MEDICAL-INFORMATION.pdf" target="_blank">http://www.e-ijaet.org/media/53I11-IJAET1111227-MEDICAL-INFORMATION.pdf</a></div>
         </li>
         <li>
-          <h3>Graph Database Model for Querying, Searching and Updating</h3>
-          <h5>ICSCA 2012. IPCSIT vol. 41 IACSIT Press. Singapore.</h5>
+          <div><strong>Graph Database Model for Querying, Searching and Updating</strong></div>
+          <div>ICSCA 2012. IPCSIT vol. 41 IACSIT Press. Singapore.</div>
+          <div><a href="http://www.sonaliagarwal.com/031-ICSCA2012-S10019.pdf" target="_blank">http://www.sonaliagarwal.com/031-ICSCA2012-S10019.pdf</a></div>
         </li>
       </ul>
     </section>
     <section id="education">
-      <h2 class="margin-15">Education & Interests</h2>
-      <h3>Bachelor Of Information Technology</h3>
+      <h2 class="mbtm-10">Education & Interests</h2>
+      <div><strong>Bachelor Of Information Technology</strong></div>
       <ul>
-        <li>Indian Institute of Information Technology</li>
-        <li>Allahabad, India</li>
+        <li>Indian Institute of Information Technology, Allahabad, India</li>
         <li>2009 - 2013</li>
       </ul>
-    </section>
-    <section id="interests">
+      <br />
       <ul class="interests__list">
-        <li>Actively involved in communities like <a href="http://bangalorejs.org/" target="_blank">BangaloreJS</a>,<a href="http://developers-nepal.github.io/ktmjs/" target="_blank">KathmanduJS</a>, <a href="codefornepal.org" target="_blank">Code for Nepal</a> and <a href="https://github.com/developers-nepal/" target="_blank">Developers Nepal.</a></li>
+        <li>Actively involved in communities like <a href="http://bangalorejs.org/" target="_blank">BangaloreJS</a>, <a href="http://developers-nepal.github.io/ktmjs/" target="_blank">KathmanduJS</a>, <a href="codefornepal.org" target="_blank">Code for Nepal</a> and <a href="https://github.com/developers-nepal/" target="_blank">Developers Nepal.</a></li>
         <li>Volunteered for non profit organizations: <a href="http://youthaction.org.np/" target="_blank">Youth Action of Nepal</a>, <a href="http://youth.org.np/" target="_blank">Youth Initiative (YI)</a> and <a href="http://www.np.emb-japan.go.jp/org/library.html" target="_blank">Nepal Japan Children Library (NJCL)</a>.</li>
         <li>Travelling, Reading books and mangas, Playing games, watching football (Premier League).</li>
       </ul>

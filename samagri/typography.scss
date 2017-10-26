@@ -1,7 +1,8 @@
 /* Fonts Register */
 $fonts : (
   'fatface': unquote("Abril Fatface"),
-  'robotomono': unquote("Roboto Mono")
+  'robotomono': unquote("Roboto Mono"),
+  'default': unquote('-apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"')
 );
 
 $typesets : (

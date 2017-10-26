@@ -5,7 +5,21 @@
             "sass.enabled": true,
             "sass.options": {
                 "outputDir": "../styles/",
-                "includePaths": ["./samagri"],
+                "includePaths": [
+                    "./samagri"
+                ],
+                "sourceComments": true,
+                "outputStyle": "nested"
+            },
+            "linting.collapsed": false
+        },
+        "scss/resume.scss": {
+            "sass.enabled": true,
+            "sass.options": {
+                "outputDir": "../styles/",
+                "includePaths": [
+                    "./samagri"
+                ],
                 "sourceComments": true,
                 "outputStyle": "nested"
             }

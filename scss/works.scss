@@ -1,23 +1,22 @@
 .works {
-  margin-bottom: 50px;
-  
-  &__meta {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 15px;
+  margin-bottom: 30px;
+
+  &__desc {
+    margin-left: 20px;
   }
-  
-  p { padding-bottom: 20px; }
-  
-  &__description p:last-child {
-    padding-bottom: 0px;
+
+  &__desc li {
+    margin-bottom: 5px;
+    list-style: disc;
+  }
+  &__desc li:last-child {
+    margin-bottom: 0px;
   }
 }
 
-.works:last-child {
-  margin-bottom: 0px;
+.works a {
+  font-size: 16px;
 }
-
 #education {
   margin-bottom: 50px;
 }

@@ -1,25 +1,36 @@
 @import '../samagri/pallete.scss';
 
 .intro {
-  &__header {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 50px;
-  }
-  
   &__links {
-    text-align: right;
-    align-self: center;
+    display: flex;
+    justify-content: start;
+    border-bottom: 1px solid;
+    @include color(blue, 'border');
+    font-size: 16px;
   }
+
+  .intro__links li:first-child {
+    text-align: left;
+  }
+
+  &__links li:first-child, &__links li:nth-child(2) {
+    border-bottom: 1px solid;
+  };
+
+  &__links li {
+    flex: 1;
+    text-align: center;
+  }
+
   &__links a {
     text-decoration: none;
   }
+
   &__links a:hover {
-    @include color(blue); 
+    @include color(blue);
   }
-  
-  &__github {
-    border-top: 1px solid;
-    @include color(blue, 'border');
-  }
+}
+
+@media print {
+
 }

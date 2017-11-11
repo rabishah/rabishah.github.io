@@ -10,90 +10,91 @@ html, body {
 body {
   font-family: 'Merriweather', serif;
   overflow-y: scroll;
-  overflow-x: hidden;
   color: #333;
   font-size: 16px;
   line-height: 1.6;
-  -webkit-font-smoothing: antialiased; }
+  -webkit-font-smoothing: antialiased;
+  -webkit-overflow-scrolling: touch;
+  height: 100%; }
 
-/* line 20, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 21, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0; }
 
-/* line 25, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 26, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 h1 {
   font-size: 40px;
   font-weight: 100;
   line-height: 1.6; }
   @media only screen and (max-width: 480px) {
-    /* line 25, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+    /* line 26, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
     h1 {
       font-size: 32px;
       line-height: 1.4; } }
 
-/* line 36, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 37, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 a {
   text-decoration: none; }
 
-/* line 40, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 41, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 p {
   font-family: inherit;
   margin-bottom: 30px; }
 
-/* line 45, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 46, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 article {
   position: relative;
   line-height: 26px; }
 
-/* line 50, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 51, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 content {
   display: block;
   max-width: 650px;
   margin: auto; }
   @media only screen and (max-width: 480px) {
-    /* line 50, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+    /* line 51, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
     content {
       padding: 20px; } }
 
-/* line 60, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 61, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 header {
   display: flex;
   max-width: 650px;
   margin: 120px auto; }
   @media only screen and (max-width: 480px) {
-    /* line 60, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+    /* line 61, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
     header {
       margin: 30px auto 60px auto;
       padding: 0 20px; } }
 
-/* line 71, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 72, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 header p {
   margin: 20px 0;
   font-size: 14px;
   line-height: 1.4; }
 
-/* line 77, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 78, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 header img {
   width: 275px; }
 
-/* line 81, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 82, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .header-img-wrapper {
   transform: rotate(6deg);
   background-color: #fff;
   padding: 10px;
   margin: 10px; }
   @media only screen and (max-width: 480px) {
-    /* line 81, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+    /* line 82, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
     .header-img-wrapper {
       display: none; } }
 
-/* line 92, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 93, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .Splitter {
   text-align: center;
   margin: 0 0 30px 0; }
 
-/* line 97, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 98, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .nav {
   list-style: none;
   font-weight: bold;
@@ -106,42 +107,42 @@ header img {
   padding-top: 15px;
   width: 65%; }
 
-/* line 110, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 111, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .nav li {
   margin-right: 2em; }
 
-/* line 114, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 115, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 strong {
   font-weight: bold; }
 
-/* line 115, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 116, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .mbtm-10 {
   margin-bottom: 10px; }
 
-/* line 116, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 117, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .mbtm-30 {
   margin-bottom: 30px; }
 
-/* line 117, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 118, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .mbtm-none {
   margin-bottom: 0; }
 
-/* line 118, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 119, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .mleft-20 {
   margin-left: 20px; }
 
-/* line 122, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 123, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .Image__Profile {
   width: 150px;
   height: 150px; }
 
-/* line 126, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 127, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .Image__Chandra {
   width: 38px;
   margin-top: 60px;
   margin-bottom: 30px; }
 
-/* line 131, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 132, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .Image__Screenshot {
   height: 200px;
   width: 308px;
@@ -152,27 +153,27 @@ strong {
   margin: auto;
   display: block; }
 
-/* line 141, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 142, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .Image__WithCaption {
   text-align: center;
   margin: 30px 0; }
-  /* line 144, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+  /* line 145, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
   .Image__WithCaption img {
     width: 100%; }
 
-/* line 148, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+/* line 149, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
 .Project {
   margin: 60px 0; }
-  /* line 151, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+  /* line 152, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
   .Project__Description {
     font-size: 16px;
     line-height: 1.4;
     margin-right: 60px; }
     @media only screen and (max-width: 480px) {
-      /* line 151, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+      /* line 152, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
       .Project__Description {
         margin-right: 0px; } }
-  /* line 160, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
+  /* line 161, /Users/rabi/27ae60/rabishah.github.io/scss/main.scss */
   .Project__Summary {
     z-index: 9999;
     position: relative;

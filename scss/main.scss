@@ -9,9 +9,13 @@ html, body {
 body {
   font-family: 'Merriweather', serif;
   overflow-y: scroll;
+  overflow-x: hidden;
   color: #333;
+  font-size: 16px;
+  line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
+
 
 h1, h2, h3, h4, h5, h6 {
   padding: 0;
@@ -22,28 +26,24 @@ h1 {
   font-size: 40px;
   font-weight: 100;
   line-height: 1.6;
+
+  @media only screen and (max-width: 480px) {
+    font-size: 32px;
+    line-height: 1.4;
+  }
 }
 
 a {
   text-decoration: none;
 }
 
-blockquote {
-  font-family: georgia;
-  font-size: 20px;
-  line-height: 1.5;
-}
-
 p {
   font-family: inherit;
-  font-size: 16px;
-  line-height: 1.6;
   margin-bottom: 30px;
 }
 
 article {
   position: relative;
-  font-size: 16px;
   line-height: 26px;
 }
 
@@ -51,12 +51,21 @@ content {
   display: block;
   max-width: 650px;
   margin: auto;
+
+  @media only screen and (max-width: 480px) {
+    padding: 20px;
+  }
 }
 
 header {
   display: flex;
   max-width: 650px;
   margin: 120px auto;
+
+  @media only screen and (max-width: 480px) {
+    margin: 30px auto 60px auto;
+    padding: 0 20px;
+  }
 }
 
 header p {
@@ -74,6 +83,10 @@ header img {
   background-color: #fff;
   padding: 10px;
   margin: 10px;
+
+  @media only screen and (max-width: 480px) {
+    display: none;
+  }
 }
 
 .Splitter {
@@ -139,6 +152,10 @@ strong { font-weight: bold; }
     font-size: 16px;
     line-height: 1.4;
     margin-right: 60px;
+
+    @media only screen and (max-width: 480px) {
+      margin-right: 0px;
+    }
   }
   &__Summary {
     z-index: 9999;
